@@ -1,0 +1,130 @@
+#day1
+#1 variables
+x=5
+Y=10
+print(x,Y)
+
+#2 Arithmatic
+x=5
+Y=10
+print(x+Y)
+print(x-Y)
+print(x*Y)
+print(x/Y)
+print(x%Y)
+
+#3 def 
+def Cal(x,y):
+    print(x+Y)
+    print(x-Y)
+    print(x*Y)
+    print(x/Y)
+    print(x%Y)
+Cal(10,5)
+Cal(50,5)
+
+#4 in def type
+##1
+def addA():
+    print(9+9)
+addA()
+addA()    
+
+##2
+def addB(x,y):
+    print(x+y)
+addB(9,3)
+addB(10,5)    
+
+##3
+def addC(x,y):
+    return x+y
+q=addC(9,3)
+print(q)
+print(q+q)
+
+
+#day2
+#1
+x=10
+print(x)
+print(type(x))
+
+y=5.3
+print(5.3)
+print(type(5.3))
+
+z=True
+print(z)
+print(type(z))
+
+a=[11,22,33,44]
+print(a)
+print(type(a))
+
+b="Aasavari"
+print(b)
+print(type(b))
+
+#logical 
+#and,or,not
+
+#comparison
+
+#conditional
+#if,else
+
+#pgm1
+numT=50
+if numT > 0 and numT <= 5:
+    print("10 % discount")
+if numT > 5 and numT <= 10:
+    print("20 % discount")
+if numT > 10:
+    print("30 % discount")
+
+
+#pgm2
+numT = -20
+if  numT > 0 and numT <= 5:
+    print("10 % discount")
+elif  numT > 5 and numT <= 10:
+    print("20 % discount")
+elif numT > 10:
+    print("30 % discount")
+else:
+    print("incorrect input")
+
+#pgm3
+    
+numT=7
+if numT > 0 and numT <5:
+    print("10 % discount")
+if numT > 5 and numT < 10:
+    print("20 % discount")
+if numT > 10:
+    print("30 % discount")
+
+#pgm4
+s= 10
+t=5
+if s > t:
+    print("s is greater")
+else:
+    print ("t is a greater")
+
+#pgm5
+x1=50
+x2=100
+x3=300
+if x1 > x2 and x1 > x3:
+    print("x1 is a greater")
+if x2 > x3 and x2 > x1:
+    print("x2 is a greater")
+if x3 > x1 and x3 > x1:
+    print("x3 is a greater")
+
+#pgm6
+age=18
+e="can drive" if age >= 18 else "can't drive"
+print(e)
