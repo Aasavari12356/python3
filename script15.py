@@ -95,12 +95,12 @@ print(setB)
 # print(setB)
 
 #pgm7 
-setD={11,22,33}
-setF={44,55,66}
-setK=setD.union(setF)
-print(setK)
+# setD={11,22,33}
+# setF={44,55,66}
+# setK=setD.union(setF)
+# print(setK)
 
-setW={11,22,33,44}
-setQ={33,44,55,66}
-setR=setW.intersection(setQ)
-print(setR)
+# setW={11,22,33,44}
+# setQ={33,44,55,66}
+# setR=setW.intersection(setQ)
+# print(setR)
