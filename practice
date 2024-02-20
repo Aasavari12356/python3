@@ -1,0 +1,14 @@
+# x=5
+# y=10
+#print(x+y)
+# z=x+y
+# print(z)
+
+# def cal(x,y):
+#     print(y)
+#     print(x-y)
+#     print(x*y)
+# cal(10,5)
+# cal(3,9)
+
+
