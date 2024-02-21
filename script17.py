@@ -99,3 +99,55 @@ e10 = re.findall(r'\A\bo[\w]*',str12)
 print(e9)
 print(e10)
 
+#DAY3
+#pgm12
+
+str= 'Aasavari Bedade : 8108580033'
+print(str)
+# e= re.search(r'\d+',str)
+# print (e.group())
+e= re.search(r'\D*',str)
+print(e.group())
+e
+f=re.search(r'[\w]* [\w]*',str)
+print(f.group())
+
+#pgm13
+str='aman anil ankur anil aasavari akhil'
+z=re.findall(r'\ba[na][\w]*',str)
+print(z)
+
+#pgm14n15 day range{1,2}
+str='Aasavari 13-09-1993 Pranil 10-12-1989 Swarup 8-06-2021'
+e=re.findall(r'\d{1,2}-\d{2}-\d{4}',str)
+print(e)
+
+#pgm16 
+str='Hello World'
+e=re.search(r'^He',str)
+print(e.group())
+
+#pgm17
+str='Hello world'
+q=re.search(r'world$',str)
+print(q.group())
+
+#pgm18
+str='Hello World'
+q=re.search(r'^he',str,re.IGNORECASE)
+print(q.group())
+
+#pgm19
+students = "I got 80 marks I got 100 marks"
+a=re.findall(r'\d{2,3}',students)
+print(a)
+
+#pgm20
+students =  "Amol got 80 marks Mayuri got 100 marks"
+q=re.findall(r'[A-Z][a-z]*',students)
+print(q)
+
+#pgm21
+str = 'The morning meeting will be scheduled at 8am or 9am , evening at 8pm or 9pm'
+e=re.findall(r'[\d]\w*',str)
+print(e)
