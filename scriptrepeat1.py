@@ -52,3 +52,50 @@ print("type" in vechile)
 #duplicate key
 print(vechile)
 
+# script9
+info={
+    "first name":"Aasavari",
+    "last name":"bedade",
+    "roll no": 13
+}
+print(type(info))
+print(info['first name'])#retrive
+info['first name']='sawari'#update
+print(info)
+info['city']='mumbai' #add
+print(info)
+info.pop('last name')
+print(info)
+
+vehicle={
+    'color':'red',
+    'type':'sedane'
+}
+#vehicle.clear()
+# del()
+# print(vehicle)
+
+#vehicle.pop('color')
+e = vehicle.popitem()
+print(e)
+print(vehicle)
+
+info={
+    "first name":"Aasavari",
+    "last name":"bedade",
+    "roll no": 13
+}
+
+for i in info.keys():
+    print(i)
+
+for i in info.values():
+    print(i)
+
+for i in info.items():
+    print(i)
+
+print(info['first name'])
+for i in info:
+    print(i,info[i])
+
