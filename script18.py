@@ -62,12 +62,49 @@ def addEtoF(x):
 l=addEtoF(23)
 print(type(l))
 
-# setA = {11,22,33}
-# def addEtoS(x):
-#     setA.add(x)
-#     return setA
-# l = addEtoS(23)
-# print(type(l))
+#lambda
+def add(x,y):
+    return x+y
+q=add(2,4)
+print(q)
+
+addB=lambda x,y:x+y
+z=addB(3,3)
+print(z)
+
+name=['ajay','aman','amit','amar']
+def changename(lst):
+    lst[0]='akay'
+    return lst
+e4=changename(name)
+print(e4)
+print(name)
+
+lstA=[1,2,3,4,5]
+n=[]
+for i in lstA:
+    n.append(i*5)
+print(n)
+
+# list comprehension -- o/p - list
+#[expression:loop:condition]
+e4=[i*5 for i in lstA]
+print(e4)
+
+lstB=[1,2,3,4,5,6,7]
+q5=[i+5 for i in lstB]
+print(q5)
+
+lstC = [44,55,66,77,33,44,55,66,77,11,22,33,7,8,9]
+listD= []
+for x in lstC:
+    if x % 2 == 0:
+        listD.append(x)
+print(listD)
+
+listF=[x for x in lstC if x % 2 == 0]
+print(listF)
+
 
 
 
