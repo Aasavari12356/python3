@@ -109,4 +109,4 @@ print(q4)
 
 #["chinmay":'candrive',"sarika":"cannot drive","pranali":"cannot","tavish":"candrive"]
 
-c5=[i['for i in studnts]
+# c5=[i['for i in studnts]
