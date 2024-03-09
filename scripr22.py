@@ -65,3 +65,25 @@ def myfunction4():
     print(h)
 q9=myfunction4()
 print(h)    
+
+#10
+#practice again again
+
+
+def addD(*args):
+    print(args)
+    total = 0
+    for x in args:
+        total = total + x
+    return total
+e3 = addD(1,2,33,4,55,6,7,88,9,55,66,77,8,99,44,55)
+print(e3)
+
+
+#11
+def addinfo(**kwargs):
+    print(kwargs)
+    kwargs['city'] = "pune"
+    return kwargs
+e4 = addinfo(first_name = "shivani",last_name ="hedau",age= 30)
+print(e4)

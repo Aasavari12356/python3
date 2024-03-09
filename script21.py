@@ -31,12 +31,4 @@ def addAll(*args):
 e5=addAll(1,2,3,4,5,6,7,8,9,99,88,77,66,5,44,33,22,11)
 
 
-# def addAll(*args):
-#     print(args)
-#     total = 0 
-#     for i in args:
-#         total  =  total + i
-#     return total
-    
-
-# e5 = addAll(1,2,3,4,5,6,73,4,5,6,6,55,6,7,3,4,5,6,7)
+# 
