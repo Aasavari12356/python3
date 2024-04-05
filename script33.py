@@ -72,64 +72,64 @@ print(Ramayan.pages+Mahabharat.pages)
 
 #overriding
 
-# class WorldBank:
-#     def loan(self):
-#         print('I am loan from WorldBank')
-
-#     def save(self):
-#         print('I am save from WorldBank')
-
-
-# class SBI(WorldBank):
-#     def loan (self):
-#         print('I am loan from SBI ')
-
-#     def save(self):
-#         print('I am save from SBI') 
-
-
-
-# class PNB (WorldBank):
-#     def loan (self):
-#         print('I am from PNB')
-
-#     def save (self):
-#         print('I am save from PNB')
-
-
-# Ghatkopar= SBI()
-# Andheri=PNB()
-# Ghatkopar.loan()
-# Ghatkopar.save()
-
-
 class WorldBank:
     def loan(self):
-        print("I am loan from WB")
+        print('I am loan from WorldBank')
 
     def save(self):
-        print("I am save from WB")
+        print('I am save from WorldBank')
+
 
 class SBI(WorldBank):
-    
-    def loan(self):
-        print("I am loan from SBI")
+    def loan (self):
+        print('I am loan from SBI ')
 
     def save(self):
-        print("I am save from SBI")
+        print('I am save from SBI') 
+
+
+
+class PNB (WorldBank):
+    def loan (self):
+        print('I am from PNB')
+
+    def save (self):
+        print('I am save from PNB')
+
+
+Ghatkopar= SBI()
+Andheri=PNB()
+Ghatkopar.loan()
+Ghatkopar.save()
+
+
+# class WorldBank:
+#     def loan(self):
+#         print("I am loan from WB")
+
+#     def save(self):
+#         print("I am save from WB")
+
+# class SBI(WorldBank):
+    
+#     def loan(self):
+#         print("I am loan from SBI")
+
+#     def save(self):
+#         print("I am save from SBI")
     
    
-class PNB(WorldBank):
-   def loan(self):
-        print("I am loan from PNB")
+# class PNB(WorldBank):
+#    def loan(self):
+#         print("I am loan from PNB")
 
-   def save(self):
-        print("I am save from PNB")
+#    def save(self):
+#         print("I am save from PNB")
 
-nagpur = SBI()
-wardha = PNB()
+# nagpur = SBI()
+# wardha = PNB()
 
-nagpur.loan()
-wardha.save()
+# nagpur.loan()
+# wardha.save()
 
 
